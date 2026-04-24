@@ -1,4 +1,4 @@
-# Your Project Name
+# Dispositif portable interactif inspiré de Totally Spies
 
 | | |
 |-|-|
@@ -28,10 +28,22 @@ Depuis mon enfance, la série Totally Spies m’a beaucoup plu et j’ai toujour
 
 | Device | Usage | Price |
 |--------|--------|-------|
-| Arduino Nano | [34.84 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
-| Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
-| Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
-| Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
+| Arduino Nano | Microcontrôleur principal | [34.84 RON](https://sigmanortec.ro/placa-dezvoltare-compatibila-arduino-nano-v30-atmega328p-au-ft232) |
+| Écran LCD rond  | Écran avec slot SD | [31.48 RON](https://www.emag.ro/ecran-lcd-rotund-de-1-28-240x240-tft-slot-sd-controler-gc9a01-spi-3-3v-s-254/pd/DG8PHR3BM/?ref=fav_pd-title) |
+| Kit Plusivo Pi 4 Super Starter| Kit comprenent: Capteur MPU6050, leds, led RGB, photorésistance, buzzer passif, résistance, fils | [54 RON](https://www.optimusdigital.ro/ro/kituri/9698-kit-plusivo-pi-4-fara-placa-i-fara-card.html?search_query=kituri&results=60) |
+| Module de charge pour batterie au lithium, TP4056 | Module pour batterie | [4.72 RON](https://sigmanortec.ro/modul-incarcare-baterie-litiu-tp4056-typec-5v-1a-cu-protectie) |
+| Batterie Li-Po Akyga AKY0571 | Batterie | [44.28 RON](https://www.emag.ro/acumulator-li-po-akyga-3-7v-1000mah-cu-conector-jst-2-pini-150mm-aky0571/pd/DGG2H23BM/) |
+| Moteur vibrant plat, bouton | Moteur vibrante Arduino | [9.12 RON](https://sigmanortec.ro/motor-vibratii-plat-buton-1034-3v) |
+| Reed switch | Détecter l’ouverture et la fermeture | [1.86 RON](https://sigmanortec.ro/Comutator-magnetic-Reed-N-O-p161249015) |
+| Breadboard | Board pour le projet | [10 RON](https://www.emag.ro/breadboard-h-hct-tronic-830-puncte-de-conectare-abs-200x630-puncte-034-066/pd/DBNQ7R3BM/) |
+| Potentiomètre | Réglage manuel d’un paramètre du système | [3.03 RON](https://sigmanortec.ro/Potentiometru-10K-ohm-6mm-p126029278) |
+| Capuchon pour potentiomètre | Commande mécanique du potentiomètre | [1.94 RON](https://sigmanortec.ro/capac-knob-potentiometru-6mm-15x17-albastru) |
+| Goldpin header | Souder et connecter les modules | [10.95 RON](https://www.emag.ro/goldpin-header-40-pini-tht-2-54-mm-tata-negru-5904162801701/pd/DQZ8KLMBM/) |
+| Card SD | Stocker la mémoire | [21.99 RON](https://www.emag.ro/card-de-memorie-mediarange-micro-sdhc-8gb-clasa-10-cu-adaptor-sd-mr957/pd/DXJWRLMBM/) |
+| Magnet | Fermez l'appareil | [9.79 RON](https://www.emag.ro/magneti-neodim-rotunzi-set-10-bucati-foarte-puternici-pentru-diferite-aplicatii-si-activitati-10x2-mm-01961/pd/D4BB3DYBM/) |
+| Convertisseur de niveau logique | Adaptation des niveaux logiques entre les modules 5V et 3.3V | [11.3 RON](https://www.emag.ro/convertor-de-nivel-logic-cu-4-canale-elektroweb-5-v-3-3-v-2-8-v-1-8-v-2-a-018/pd/D7YW35MBM/) |
+| Carte de prototypage | Assemblage de composants par soudure | [5.76 RON](https://sigmanortec.ro/Placa-PCB-prototipare-fata-dubla-7x9cm-p125747328) |
+| Step-up | Transformez rapidement une batterie Li-ion 3,7 V en batterie externe. | [3.81 RON](https://sigmanortec.ro/Modul-incarcare-baterie-3-7V-cu-ridicator-la-5V-p160514049) |
 
 ### Libraries
 

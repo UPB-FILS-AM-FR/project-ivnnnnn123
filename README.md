@@ -2,11 +2,13 @@
 
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | Burlacu Ivona-Elena
 
 ## Description
+Ce projet consiste en la réalisation d’un dispositif portable interactif basé sur Arduino Nano, inspiré du miroir compact utilisé dans la série Totally Spies. L’appareil aura la forme d’un petit miroir rond qui s’ouvre, avec une partie supérieure réfléchissante et une partie inférieure contenant un écran circulaire et plusieurs composants électroniques. Lors de l’ouverture, le système affichera un écran de démarrage, puis un menu principal permettant d’accéder à différentes fonctions, comme l’affichage de messages prédéfinis, la consultation de journaux enregistrés sur une carte microSD, le déclenchement d’alertes lumineuses, sonores et vibratoires, ainsi qu’un mini-jeu de type Snake contrôlé par l’inclinaison du dispositif.
 
 ## Motivation
+Depuis mon enfance, la série Totally Spies m’a beaucoup plu et j’ai toujours voulu avoir un gadget semblable à celui utilisé par les personnages. Grâce à ce projet, j’ai enfin eu l’occasion d’en concevoir une version inspirée, en utilisant les notions techniques étudiées en laboratoire.
 
 ## Architecture
 
@@ -26,7 +28,7 @@
 
 | Device | Usage | Price |
 |--------|--------|-------|
-| Activ Buzzer | Buzzer | [1.5 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
+| Arduino Nano | [34.84 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
 | Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
 | Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
 | Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |

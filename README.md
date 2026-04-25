@@ -12,12 +12,12 @@ Depuis mon enfance, la série Totally Spies m’a beaucoup plu et j’ai toujour
 
 ## Architecture
 Le système est structuré en cinq sous-systèmes principaux : l'unité centrale de contrôle, le sous-système de détection, le sous-système d'affichage, le sous-système d'alertes et le sous-système de stockage.
-L'unité centrale, basée sur l'Arduino Nano, coordonne l'ensemble des opérations et gère la communication entre les différents modules.
-Le sous-système de détection comprend le capteur MPU-6050, qui fournit les données d'accélération et d'orientation via I2C — utilisées à la fois pour contrôler le jeu Snake par inclinaison et pour détecter l'ouverture du dispositif. Un reed switch couplé à un aimant détecte mécaniquement l'état ouvert ou fermé du couvercle via GPIO. Un potentiomètre permet une entrée analogique pour la navigation dans les menus.
-Le sous-système d'affichage repose sur un écran circulaire GC9A01 de 1.28 pouces (240×240 pixels), communiquant avec l'Arduino Nano via le bus SPI. Il affiche le bootscreen, le menu principal, les mission logs et le jeu Snake.
-Le sous-système de stockage utilise une carte microSD connectée via SPI, partageant le même bus que l'écran. Elle permet la sauvegarde et la lecture des mission logs (messages et notes de l'utilisateur).
-Le sous-système d'alertes comprend un buzzer passif contrôlé par PWM pour les alertes sonores, une LED RGB et un moteur vibrant contrôlés via GPIO/PWM pour les retours visuels et haptiques.
-L'ensemble du système est alimenté par une batterie Li-Po 3.7V, chargée via un module TP4056, avec un convertisseur step-up assurant une tension stable de 5V pour l'Arduino Nano et les périphériques.
+<p>L'unité centrale, basée sur l'Arduino Nano, coordonne l'ensemble des opérations et gère la communication entre les différents modules.</p>
+<p></p>Le sous-système de détection comprend le capteur MPU-6050, qui fournit les données d'accélération et d'orientation via I2C — utilisées à la fois pour contrôler le jeu Snake par inclinaison et pour détecter l'ouverture du dispositif. Un reed switch couplé à un aimant détecte mécaniquement l'état ouvert ou fermé du couvercle via GPIO. Un potentiomètre permet une entrée analogique pour la navigation dans les menus.</p>
+<p>Le sous-système d'affichage repose sur un écran circulaire GC9A01 de 1.28 pouces (240×240 pixels), communiquant avec l'Arduino Nano via le bus SPI. Il affiche le bootscreen, le menu principal, les mission logs et le jeu Snake.</p>
+<p>Le sous-système de stockage utilise une carte microSD connectée via SPI, partageant le même bus que l'écran. Elle permet la sauvegarde et la lecture des mission logs (messages et notes de l'utilisateur).</p>
+<p>Le sous-système d'alertes comprend un buzzer passif contrôlé par PWM pour les alertes sonores, une LED RGB et un moteur vibrant contrôlés via GPIO/PWM pour les retours visuels et haptiques.</p>
+<p>L'ensemble du système est alimenté par une batterie Li-Po 3.7V, chargée via un module TP4056, avec un convertisseur step-up assurant une tension stable de 5V pour l'Arduino Nano et les périphériques.</p>
 
 ### Block diagram
 

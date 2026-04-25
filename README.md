@@ -22,8 +22,8 @@ L'ensemble du système est alimenté par une batterie Li-Po 3.7V, chargée via u
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-![Block Diagram](<img width="961" height="688" alt="block_diagram png" src="https://github.com/user-attachments/assets/db2d2e3b-8250-472b-8d51-3b4a083bcd5a" />
-)
+![Block Diagram](schematics/<img width="961" height="688" alt="block_diagram png" src="https://github.com/user-attachments/assets/db2d2e3b-8250-472b-8d51-3b4a083bcd5a" />
+block_diagram.png)
 
 ### Schematic
 

@@ -27,7 +27,8 @@ block_diagram.png)
 
 ### Schematic
 
-![Schematic](schematics/kicad_schematic.png)
+![Schematic](schematics/kicad_schematic.png)<img width="1123" height="794" alt="kicad schematic" src="https://github.com/user-attachments/assets/66368342-9c35-401f-be39-ebf33580d345" />
+
 
 ### Components
 
